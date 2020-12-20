@@ -12,8 +12,15 @@ Simply copy this repository to your vscode/vscodium installation paths `extensio
 
 ### MacOS / Linux
 
+#### VsCodium
+
 ```console
 ~/.vscode-oss/extensions/spaceduck-vscode
+```
+#### VsCode
+
+```console
+~/.vscode/extensions/spaceduck-vscode
 ```
 
 ## TODO
