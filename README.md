@@ -16,6 +16,13 @@ Simply copy this repository to your vscode/vscodium installation paths `extensio
 ~/.vscode-oss/extensions/spaceduck-vscode
 ```
 
+## TODO
+
+- Better syntax colors
+  - [ ] Terminal
+  - [ ] JavaScript
+  - [ ] Rust
+
 ## Screenshot
 
 ![Ruby](ruby.png)
