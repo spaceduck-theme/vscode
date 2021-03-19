@@ -10,6 +10,8 @@ This an unofficial port of
 
 ### Install using Command Palette
 
+> https://marketplace.visualstudio.com/items?itemName=spaceduck-vscode.spaceduck
+
 1. Install using Command Palette
 2. Go to View -> Command Palette or press Ctrl+Shift+P
 3. Then enter Install Extension
