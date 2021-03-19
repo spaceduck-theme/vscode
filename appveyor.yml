@@ -1,13 +1,28 @@
 version: 1.0.{build}
+image: Visual Studio 2017
+skip_tags: true
+
+branches:
+  only:
+  - master
+
+pull_requests:
+  do_not_increment_build_number: true
+
+skip_commits:
+  message: /skip\-build/
+  files:
+    - .vscode/
+    - README.md
+    - .gitattributes
+    - .gitignore
 
 install:
-  - ps: (new-object Net.WebClient).DownloadString("https://raw.github.com/madskristensen/ExtensionScripts/master/AppVeyor/vsix.ps1") | iex
-
-before_build:
-  - ps: Vsix-IncrementVsixVersion | Vsix-UpdateBuildVersion
+  - ps: npm install -g vsce
+  - ps: Set-Location $env:APPVEYOR_BUILD_FOLDER
 
 build_script:
-  - msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal /v:m
+  - ps: .\build.ps1
 
-after_test:
-  - ps: Vsix-PushArtifacts | Vsix-PublishToGallery
+on_finish:
+  - ps: .\build.ps1 -Push
