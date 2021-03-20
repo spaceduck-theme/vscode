@@ -18,18 +18,6 @@ This an unofficial port of
 4. Write spaceduck
 5. Select it or press Enter to install
 
-### Install without marketplace
-
-Simply copy this repository to your vscode/vscodium installation paths `extension` folder. See below for examples. Then simply select the theme from the color theme menu.
-
-### MacOS / Linux
-
-#### VsCode
-
-```console
-~/.vscode/extensions/spaceduck-vscode
-```
-
 ## Colors are wrong
 
 This repository aims to maintain a color pallet as close to `https://github.com/pineapplegiant/spaceduck` as possible. If you see areas for improvement, please feel free to submit a pull request.
