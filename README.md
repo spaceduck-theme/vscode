@@ -22,9 +22,6 @@ This an unofficial port of
 
 This repository aims to maintain a color pallet as close to `https://github.com/pineapplegiant/spaceduck` as possible. If you see areas for improvement, please feel free to submit a pull request.
 
-## TODO
-- [ ] Update syntax for Terminal
-
 ## Screenshot
 
 ![Ruby](ruby.png)
