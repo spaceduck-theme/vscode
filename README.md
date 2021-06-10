@@ -1,8 +1,6 @@
 # spaceduck-vscode
 
-This is an unofficial port of 
-
-> https://github.com/pineapplegiant/spaceduck
+This is the official port of the [spaceduck theme](https://github.com/spaceduck-theme/spaceduck)), it is a fork of [this theme]() maintained by [Dustin Lahr]
 
 ---
 
