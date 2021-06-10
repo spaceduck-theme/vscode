@@ -12,4 +12,4 @@
 
 ## Samples
 
-![Ruby](ruby.png)
+work in progress
