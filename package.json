@@ -1,27 +1,32 @@
 {
-    "publisher": "spaceduck-vscode",
-    "name": "spaceduck",
-    "displayName": "spaceduck",
-    "icon": "spaceduck.png",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.42.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tathran/spaceduck-vscode"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "spaceduck",
-                "uiTheme": "vs-dark",
-                "path": "./themes/spaceduck-theme.json"
-            }
-        ]
-    }
+	"publisher": "spaceduck-vscode",
+	"name": "spaceduck",
+	"displayName": "spaceduck",
+	"icon": "spaceduck.png",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tathran/spaceduck-vscode"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "spaceduck",
+				"uiTheme": "vs-dark",
+				"path": "./themes/spaceduck-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f0ecaa5e-71cf-4fd2-9caa-439e8e867b9f",
+		"publisherDisplayName": "spaceduck-vscode",
+		"publisherId": "059c9f32-6838-4ee8-b686-736575322bcf"
+	}
 }
