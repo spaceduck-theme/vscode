@@ -1,21 +1,15 @@
-# spaceduck-vscode
+# Spaceduck for [vscode](https://code.visualstudio.com/)
 
-This is the official port of the [spaceduck theme](https://github.com/spaceduck-theme/spaceduck)), it is a fork of [this theme]() maintained by [Dustin Lahr]
+> A [spaceduck](https://github.com/spaceduck-theme/spaceduck) theme for [vscode](https://code.visualstudio.com/)
 
 ---
 
-## Installation
+## Install
 
-### Install using Command Palette
+1. open vscode
+2. open the command palette using `ctrl+shift+p`
+3. paste the following line `ext install spaceduck-vscode.spaceduck`
 
-> https://marketplace.visualstudio.com/items?itemName=spaceduck-vscode.spaceduck
-
-1. Install using Command Palette
-2. Go to View -> Command Palette or press Ctrl+Shift+P
-3. Then enter Install Extension
-4. Write spaceduck
-5. Select it or press Enter to install
-
-## Screenshot
+## Samples
 
 ![Ruby](ruby.png)
