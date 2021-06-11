@@ -1,16 +1,25 @@
 {
-	"publisher": "spaceduck-vscode",
+	"publisher": "YoussefBouzekri",
 	"name": "spaceduck",
-	"displayName": "spaceduck",
+	"displayName": "Spaceduck",
 	"icon": "spaceduck.png",
 	"description": "",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
+	"keywords": [
+		"theme",
+		"spaceduck",
+		"spaceduck-vscode",
+		"dark theme",
+		"space",
+		"duck",
+		"space duck"
+	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tathran/spaceduck-vscode"
+		"url": "https://github.com/spaceduck-theme/vscode"
 	},
 	"categories": [
 		"Themes"
