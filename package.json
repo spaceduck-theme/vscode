@@ -3,7 +3,7 @@
 	"name": "spaceduck",
 	"displayName": "Spaceduck",
 	"icon": "spaceduck.png",
-	"description": "",
+	"description": "An intergalactic space theme for vscode and more! ",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.42.0"
