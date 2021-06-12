@@ -714,7 +714,7 @@
         {
             "scope": "punctuation.definition.tag",
             "settings": {
-                "foreground": "#30365F"
+                "foreground": "#686f9a"
             }
         },
         {
@@ -738,7 +738,7 @@
         {
             "scope": "meta.attribute",
             "settings": {
-                "foreground": "#30365F"
+                "foreground": "#686f9a"
             }
         },
         {
