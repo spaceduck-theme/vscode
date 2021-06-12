@@ -638,15 +638,14 @@
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#ECF0C1",
+                "foreground": "#ce6f8f",
                 "fontStyle": ""
             }
         },
         {
             "scope": "support.function",
             "settings": {
-                "foreground": "#F2CE00",
-                "fontStyle": ""
+                "foreground": "#5ccc96",
             }
         },
         {
@@ -715,7 +714,7 @@
         {
             "scope": "punctuation.definition.tag",
             "settings": {
-                "foreground": "#5CCC96"
+                "foreground": "#30365F"
             }
         },
         {
@@ -739,7 +738,7 @@
         {
             "scope": "meta.attribute",
             "settings": {
-                "foreground": "#B267E6"
+                "foreground": "#30365F"
             }
         },
         {
@@ -771,6 +770,13 @@
             "settings": {
                 "foreground": "#B267E6"
             }
+        },
+        // CSS
+        {
+            "scope": "support.type.property-name.css",
+            "settings": {
+                "foreground": "#b3a1e6",
+            },
         }
     ]
 }
