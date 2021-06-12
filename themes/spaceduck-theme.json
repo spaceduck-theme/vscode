@@ -700,12 +700,6 @@
             }
         },
         {
-            "scope": "markup.quote.markdown",
-            "settings": {
-                "foreground": "#5CCC96"
-            }
-        },
-        {
             "scope": "invalid.deprecated.entity.other.attribute-name.html",
             "settings": {
                 "foreground": "#B3A1E6"
@@ -727,12 +721,6 @@
             "scope": "support.type.property-name.json",
             "settings": {
                 "foreground": "#5CCC96"
-            }
-        },
-        {
-            "scope": "meta.separator.markdown",
-            "settings": {
-                "foreground": "#00A3CC"
             }
         },
         {
@@ -777,6 +765,72 @@
             "settings": {
                 "foreground": "#b3a1e6",
             },
-        }
+        },
+        // Markdown
+        {
+            "scope": "string.other.link.description.markdown",
+            "settings":{
+                "foreground": "#5ccc96",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "markup.quote.markdown",
+            "settings": {
+                "foreground": "#30365F",
+                "fontStyle": "italic"
+            }
+        },
+	    {
+	        "scope": "punctuation.definition.list.begin.markdown",
+	        "settings": {
+		    "foreground": "#30365F"
+	        }
+	    },
+        {
+            "scope":"punctuation.definition.heading.markdown",
+            "settings": {
+                "foreground": "#7a5ccc",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope":"markup.italic.markdown",
+            "settings": {
+                "foreground": "#f2ce00",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope":"markup.bold.markdown",
+            "settings": {
+                "foreground": "#f2ce00",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope":"punctuation.definition.bold.markdown",
+            "settings": {
+                "foreground": "#30365F"
+            }
+        },
+        {
+            "scope":"punctuation.definition.italic.markdown",
+            "settings": {
+                "foreground": "#30365F"
+            }
+        },
+        {
+            "scope":"markup.fenced_code.block.markdown",
+            "settings": {
+                "foreground": "#b3a1e6"
+            }
+        },
+        {
+            "scope": "meta.separator.markdown",
+            "settings": {
+                "foreground": "#30365F"
+            }
+        },
     ]
 }
