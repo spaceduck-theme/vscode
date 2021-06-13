@@ -504,7 +504,7 @@
         {
             "scope": "keyword.operator.assignment",
             "settings": {
-                "foreground": "#ECF0C1"
+                "foreground": "#ce6f8f"
             }
         },
         {
@@ -541,7 +541,7 @@
         {
             "scope": "storage.type",
             "settings": {
-                "foreground": "#7A5CCC"
+                "foreground": "#5ccc96"
             }
         },
         {
@@ -553,7 +553,7 @@
         {
             "scope": "storage.type.function",
             "settings": {
-                "foreground": "#5ccc96"
+                "foreground": "#7a5ccc"
             }
         },
         {
@@ -607,7 +607,7 @@
         {
             "scope": "variable.parameter",
             "settings": {
-                "foreground": "#ECF0C1"
+                "foreground": "#7a5ccc"
             }
         },
         {
@@ -617,9 +617,15 @@
             }
         },
         {
+            "scope": "variable.language.this",
+            "settings": {
+                "foreground": "#F2CE00"
+            }
+        },
+        {
             "scope": "variable.other.property",
             "settings": {
-                "foreground": "#b3a1e6"
+                "foreground": "#ce6f8f"
             }
         },
         {
@@ -830,6 +836,31 @@
             "scope": "meta.separator.markdown",
             "settings": {
                 "foreground": "#30365F"
+            }
+        },
+        // PHP
+        {
+            "scope": "punctuation.section.embedded.start.php",
+            "settings": {
+                "foreground": "#30365F",
+            }
+        },
+        {
+            "scope": "punctuation.section.embedded.end.php",
+            "settings": {
+                "foreground": "#30365F",
+            }
+        },
+        {
+            "scope": "punctuation.definition.variable.php",
+            "settings": {
+                "foreground": "#686f9a",
+            }
+        },
+        {
+            "scope": "variable.other.global.php",
+            "settings": {
+                "foreground": "#ce6f8f",
             }
         },
     ]
