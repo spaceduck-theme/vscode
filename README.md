@@ -1,25 +1,25 @@
-# Spaceduck for [vscode](https://code.visualstudio.com/)
+# Spaceduck theme for [vscode](https://code.visualstudio.com/) 🚀 🦆
 
 > A [spaceduck](https://github.com/spaceduck-theme/spaceduck) theme for [vscode](https://code.visualstudio.com/)
 
 
 ## Install
 
-1. open vscode
-2. open the extensions tab
-3. search for spaceduck and install it
+1. Open vscode
+2. Open the extensions tab
+3. Search for spaceduck and install the extension
+4. Blast off to Proxima Centauri b with these silky galaxy colors
 
-## Samples
+## Sample images
 
 ![javascript](images/javascript.png)
 
 ## Team
 
-this project is currently maintained by the following awesome person
+This project is currently maintained by the following awesome person(s)
 
-| <a href="https://github.com/youssefbouzekri"><img src="https://avatars.githubusercontent.com/u/77839865?v=4" height="150" /></a> |
-|---|
-| <a href="htttps://github.com/youssefbouzekri">Youssef Bouzekri</a> |
+| [![YoussefBouzekri](https://avatars.githubusercontent.com/u/77839865?v=4&s=70)](https://github.com/YoussefBouzekri) | [![pineapplegiant](https://avatars.githubusercontent.com/u/32819563?v=4&s=70)](https://github.com/pineapplegiant)
+|---|---|
+| [YoussefBouzekri](https://github.com/YoussefBouzekri) | [pineapplegiant](https://github.com/pineapplegiant)
 
-.. and is contributed to by theses [awesome people](https://github.com/spaceduck-theme/vscode/graphs/contributors)
-
+.. and is contributed to by these [awesome people](https://github.com/spaceduck-theme/vscode/graphs/contributors)

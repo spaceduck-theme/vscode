@@ -1,0 +1,15 @@
+#Editor
+.vscode
+vscode*
+vscode/*
+tags
+*.swp
+*.swo
+
+#mac stuff
+*~
+*.DS_Store
+*.pbxuser
+*.perspectivev3
+.build
+.nbs*
