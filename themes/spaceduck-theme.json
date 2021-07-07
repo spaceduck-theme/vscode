@@ -417,7 +417,20 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#535f97"
+                "foreground": "#535f97",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope":"markup.italic",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope":"markup.bold",
+            "settings": {
+                "fontStyle": "bold"
             }
         },
         {
@@ -475,7 +488,8 @@
         {
             "scope": "keyword",
             "settings": {
-                "foreground": "#7A5CCC"
+                "foreground": "#7A5CCC",
+                "fontStyle": "italic"
             }
         },
         {
@@ -499,7 +513,8 @@
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#CE6F8F"
+                "foreground": "#CE6F8F",
+                "fontStyle": "italic"
             }
         },
         {
@@ -536,7 +551,7 @@
             "scope": "storage",
             "settings": {
                 "foreground": "#D0D0FF",
-                "fontStyle": ""
+                "fontStyle": "italic"
             }
         },
         {
@@ -612,15 +627,10 @@
             }
         },
         {
-            "scope": "variable.language.self",
+            "scope":"variable.language",
             "settings": {
-                "foreground": "#F2CE00"
-            }
-        },
-        {
-            "scope": "variable.language.this",
-            "settings": {
-                "foreground": "#F2CE00"
+                "foreground": "#F2CE00",
+                "fontStyle": "italic"
             }
         },
         {
@@ -643,10 +653,17 @@
             }
         },
         {
+            "scope": "entity.name.tag.doctype",
+            "settings": {
+                "foreground": "#7a5ccc",
+                "fontStyle": "italic"
+            }
+        },
+        {
             "scope": "entity.other.attribute-name",
             "settings": {
                 "foreground": "#ce6f8f",
-                "fontStyle": ""
+                "fontStyle": "italic"
             }
         },
         {
