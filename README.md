@@ -14,6 +14,20 @@
 
 ![javascript](images/javascript.png)
 
+## Tips and Recommendations
+- the theme has italics support, but you need a font that also has an italics variation. I recommend Jetbrains Mono (Free), Operator Mono (Paid, 200$) but most themes support those as well.
+- I am thinking of making a Icon theme that matches spaceduck, but for now I have found that **material-theme-icons-palenight** works best.
+- here is a set of font related settings I would recommend
+```json
+{
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+}
+```
+
+
 ## Team
 
 This project is currently maintained by the following awesome person(s)
