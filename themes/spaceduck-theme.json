@@ -267,9 +267,7 @@
         "notebook.focusedCellBackground": "#1b1c3625",
         "notebook.focusedCellBorder": "#ffffff1f",
         "notebook.focusedEditorBorder": "#00a3cc",
-        "notebook.focusedRowBorder": "#ffffff1f",
         "notebook.outputContainerBackgroundColor": "#30365f44",
-        "notebook.rowHoverBackground": "#30365f23",
         "notebook.symbolHighlightBackground": "#30365f23",
         "notebookScrollbarSlider.activeBackground": "#30365fd5",
         "notebookScrollbarSlider.background": "#1b1c36d2",
@@ -881,5 +879,63 @@
                 "foreground": "#ce6f8f",
             }
         },
+        // C#
+        {
+            "scope": "keyword.other.var.cs",
+            "settings": {
+                "foreground": "#7a5ccc",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "keyword.other.namespace.cs",
+            "settings": {
+                "foreground": "#00a3cc"
+            }
+        },
+        {
+            "scope": "entity.name.type.namespace.cs",
+            "settings": {
+                "foreground": "#ecf0c1",
+            }
+        },
+        {
+            "scope": "keyword.other.class.cs",
+            "settings": {
+                "foreground": "#00a3cc",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "entity.name.type.class",
+            "settings": {
+                "foreground": "#ce6f8f"
+            }
+        },
+        {
+            "scope": "punctuation.definition.interpolation",
+            "settings": {
+                "foreground": "#7a5ccc"
+            }
+        },
+        {
+            "scope": "keyword.other.await.cs",
+            "settings": {
+                "foreground": "#7a5ccc"
+            }
+        },
+        {
+            "scope": "keyword.other.using.cs",
+            "settings": {
+                "foreground": "#5ccc96",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "variable.other.object.cs",
+            "settings": {
+                "foreground": "#ecf0c1"
+            }
+        }
     ]
 }
