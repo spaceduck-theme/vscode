@@ -3,7 +3,7 @@
 	"name": "spaceduck",
 	"displayName": "Spaceduck",
 	"icon": "spaceduck.png",
-	"description": "An intergalactic space theme for vscode and more! ",
+	"description": "An intergalactic space theme for vscode and more!",
 	"version": "1.4.7",
 	"engines": {
 		"vscode": "^1.42.0"
@@ -13,9 +13,13 @@
 		"spaceduck",
 		"spaceduck-vscode",
 		"dark theme",
+		"light theme",
 		"space",
 		"duck",
-		"space duck"
+		"space duck",
+		"intergalactic",
+		"vim",
+		"best color theme"
 	],
 	"repository": {
 		"type": "git",
@@ -27,9 +31,24 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "spaceduck",
+				"label": "Spaceduck OG",
 				"uiTheme": "vs-dark",
-				"path": "./themes/spaceduck-theme.json"
+				"path": "./themes/spaceduck-og.json"
+			},
+			{
+				"label": "Spaceduck",
+				"uiTheme": "vs-dark",
+				"path": "./themes/spaceduck-dark.json"
+			},
+			{
+				"label": "Spaceduck Mira",
+				"uiTheme": "vs-dark",
+				"path": "./themes/spaceduck-mira.json"
+			},
+			{
+				"label": "Spaceduck Light",
+				"uiTheme": "vs",
+				"path": "./themes/spaceduck-light.json"
 			}
 		]
 	},
