@@ -1,5 +1,6 @@
 {
   "type": "dark",
+  "$schema": "vscode://schemas/color-theme",
   "colors": {
     "foreground": "#ecf0c1",
     "focusBorder": "#242545",
